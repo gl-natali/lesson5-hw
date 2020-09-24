@@ -1,0 +1,277 @@
+/* Подключение шрифтов */
+@font-face {
+   font-family: "Gilroy";
+   src: url("../font/transfonter.org-20200918-161110/Gilroy-Medium.woff2") format("woff2"),
+      url("../font/transfonter.org-20200918-161110/Gilroy-Medium.woff") format("woff");
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Gilroy";
+   src: url("../font/transfonter.org-20200918-161110/Gilroy-HeavyItalic.woff2") format("woff2"),
+      url("../font/transfonter.org-20200918-161110/Gilroy-HeavyItalic.woff") format("woff");
+   font-weight: 900;
+   font-style: italic;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Gilroy";
+   src: url("../font/transfonter.org-20200918-161110/Gilroy-ExtraBold.woff2") format("woff2"),
+      url("../font/transfonter.org-20200918-161110/Gilroy-ExtraBold.woff") format("woff");
+   font-weight: 800;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Gilroy";
+   src: url("../font/transfonter.org-20200918-161110/Gilroy-Bold.woff2") format("woff2"),
+      url("../font/transfonter.org-20200918-161110/Gilroy-Bold.woff") format("woff");
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Gilroy";
+   src: url("../font/transfonter.org-20200918-161110/Gilroy-Regular.woff2") format("woff2"),
+      url("../font/transfonter.org-20200918-161110/Gilroy-Regular.woff") format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: "Gilroy";
+   src: url("../font/transfonter.org-20200918-161110/Gilroy-Thin.woff2") format("woff2"),
+      url("../font/transfonter.org-20200918-161110/Gilroy-Thin.woff") format("woff");
+   font-weight: 100;
+   font-style: normal;
+   font-display: swap;
+}
+
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+ol li,
+ul li {
+   list-style: none;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+img {
+   vertical-align: top;
+}
+
+body {
+   font-size: 18px;
+   line-height: 1;
+   letter-spacing: 1px;
+}
+
+/*---------*/
+
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   max-width: 1900px;
+   margin: 0 auto;
+}
+.menu {
+   font-family: "Gilroy", monospace;
+   color: rgba(255, 255, 255, 0.9);
+   background: url(../img/desing22.jpg) no-repeat center;
+   width: 100%;
+   min-height: 600px;
+}
+.menu a {
+   font-weight: 400;
+   color: rgba(255, 255, 255, 0.9);
+   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+.menu .logolink {
+   font-size: 25px;
+   font-weight: 500;
+   display: inline-block;
+   padding: 33px 148px 250px 368px;
+}
+.menulink {
+   text-transform: uppercase;
+   padding: 0px 72px 0px 0px;
+   margin: 0px 0px 0px 35px;
+   line-height: 2;
+}
+
+.menutitle p {
+   font-weight: 700;
+   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+   text-transform: uppercase;
+   font-size: 75px;
+   padding: 0px 0px 20px 368px;
+   letter-spacing: 15px;
+   line-height: 1.1;
+   white-space: normal;
+   max-width: 750px;
+}
+.menutext {
+   text-transform: uppercase;
+   font-size: 13px;
+   display: inline-block;
+   margin: 0px 0px 35px 368px;
+   white-space: normal;
+}
+
+.text {
+   max-width: 1170px;
+   text-align: justify;
+   display: inline-block;
+   margin: 20px 0px 15px 368px;
+}
+.text h1{
+   font-size: 24px;
+   line-height: 2;
+   font-weight: 300;
+   text-decoration: overline;
+   color: rgba(0, 0, 0, 0.5);
+   margin: 0px 0px 15px 0px;
+}
+
+.text p {
+   font-family: Gilroy;
+   line-height: 1.5;
+}
+
+.aboutlink {
+   text-decoration: underline;
+   color: rgb(247, 199, 24);
+   text-shadow: -2px -1px 1.5px hsla(0, 0%, 0%, 0.479);
+}
+
+.blocklist li {
+   font-family: "Gilroy", fantasy;
+   line-height: 3.8;
+   display: inline-block;
+   margin: 10px 70px 20px 0px;
+}
+.generalblock {
+   max-width: 1170px;
+   margin: 0 auto;
+}
+
+.blockimage {
+   display: inline-block;
+}
+
+.blockimage img {
+   width: 100%;
+   padding: 0px 4px 0px 0px;
+}
+
+.blockimage p {
+   font-family: Roboto;
+   padding: 15px 0px 0px 0px;
+   margin: 0px 0px 40px 0px;
+}
+.blocktext {
+   background-color: rgb(68, 68, 80);
+   text-align: center;
+
+}
+.blocktext p {
+   font-family: Roboto, cursive;
+   font-weight: 600;
+   font-size: 45px;
+   color: rgba(255, 255, 255, 0.863);
+   text-align: left;
+   padding: 50px 0px 0px 368px;
+   max-width: 900px;
+}
+.undertext li {
+   display: inline-block;
+   padding: 50px;
+   font-family: Roboto;
+   color: white;
+   letter-spacing: 2px;
+   word-spacing: 40px;
+   text-align: center;
+}
+.blocknext {
+   max-width: 1170px;
+   margin: 0 auto;
+} 
+
+
+.list {
+   text-align: justify;
+   font-family: Gilroy;
+   
+}
+.list h2 {
+   text-align: center;
+   font-family: Gilroy, sans-serif;
+   font-size: 22px;
+   margin: 40px 0px 10px 0px;
+}
+.list img {
+   width: 100%;
+   max-width: 395px;
+   margin: 10px 0px 0px 0px;
+   
+}
+.list li {
+   display: inline-block;
+   max-width: 32%;
+   margin: 5px;
+}
+
+.list p {
+   margin: 20px 0px 0px 0px;
+   max-height: 200px;
+   overflow: auto;
+   
+}
+.link {
+   display: inline-block;
+   margin: 20px 0px 0px 0px;
+   color: rgb(41, 77, 5);
+   text-shadow: 1px 2px 2px rgba(7, 7, 7, 0.3);
+}
+
+.footerblock {
+   text-align: center;
+}
+.footerblock > p {
+   text-decoration: line-through;
+   line-height: 3;
+   font-weight: 500;
+   color: rgba(91, 87, 87, 0.2);
+}
+.footerup {
+   text-align: right;
+   color: rgb(247, 199, 24, 0.4);
+   text-shadow: -2px -1px 1px rgb(247, 199, 24), 2px 1px 2px hsla(0, 0%, 0%, 0.2);
+}
+
